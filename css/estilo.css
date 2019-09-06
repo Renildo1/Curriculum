@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+}
+.avatar{
+    border-radius: 50%;
+    width: 60%;   
+	height: auto;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 100% auto;
+    background-color: rgb(246, 250, 252);
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;   
+}
+  
+.item1{
+    background-color: rgb(1, 44, 73);
+    margin: 10%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+.item2{
+    margin-top: 5%;
+}
+.esquerda{
+    text-align: left;
+    margin-left: 5%;
+}
+.direita{
+   text-align: right;  
+}
+.linha{
+    border-bottom: solid 3px rgb(221, 218, 218);
+}
+#titulo{
+    border-bottom: solid 3px rgb(221, 218, 218); 
+    text-align: right;
+    margin-right: 5%;
+}
+h1{
+    font-family: 'Courgette', cursive;  
+}
+h2{
+    
+    font-family: 'Artifika', serif;
+    margin-right: 5%; 
+}
+strong{
+    font-size: 100%;
+    color: rgb(177, 47, 8);
+}
+i{
+    color: rgb(177, 47, 8);
+}
+p{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 100%;
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 5%;
+}
+
+img{
+    width: 100%; 
+    margin-top: 10%;
+}
